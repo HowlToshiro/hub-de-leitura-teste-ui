@@ -1,8 +1,8 @@
 describe('Funcionalidade: Contato', () => {
 
-beforeEach(() => {
-  cy.visit('index.html')
-});
+  beforeEach(() => {
+    cy.visit('index.html')
+  });
 
   it('Deve preencher o formulario de contato com sucesso', () => {
     cy.get('#name').type('Moises Vinicius')
